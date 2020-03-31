@@ -9,8 +9,7 @@ import Resume from "./resume";
 
 const Main = () => (
   <Switch>
-    <IndexRedirect to="/landingpage" />
-    <Route path="/landingpage" component={LandingPage} />
+    <Route path="/" component={LandingPage} />
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
