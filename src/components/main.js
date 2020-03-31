@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router";
+import { Switch, Route, IndexRedirect } from "react-router";
 import LandingPage from "./landingpage";
 import AboutMe from "./aboutme";
 import Contact from "./contact";
@@ -9,7 +9,8 @@ import Resume from "./resume";
 
 const Main = () => (
   <Switch>
-    <Route path="/" component={LandingPage} />
+    <IndexRedirect to="/landingpage" />
+    <Route path="/landingpage" component={LandingPage} />
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
