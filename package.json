@@ -1,7 +1,7 @@
 {
-  "homepage": "https://sasl09.github.io/mysite.github.io",
   "name": "mysite",
   "version": "0.1.0",
+  "homepage": "https://sasl09.github.io/mysite.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
