@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, IndexRedirect } from "react-router";
+import { Switch, Route } from "react-router";
 import LandingPage from "./landingpage";
 import AboutMe from "./aboutme";
 import Contact from "./contact";
