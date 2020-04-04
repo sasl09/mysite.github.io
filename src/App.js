@@ -90,7 +90,7 @@ class App extends Component {
         </div>
       ) : (
           <div >
-            <Layout>
+            <Layout >
                 <Header style={{background: "linear-gradient(to top, #1CB5E0, #000046)"}} className="header-color" title=<Link className="header-text" to="/">Home</Link> scroll>
                     <Navigation>
                         <Link to="/resume">Resume</Link>
@@ -99,13 +99,13 @@ class App extends Component {
                         <Link to="/contact">Contact Me</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="Quick Menu">
+                <Drawer style={{background: "#dac934", color: "black"}}  title="Quick Menu">
                     <Navigation>
-                        <Link className="header-text" to="/">Home</Link>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact Me</Link>
+                        <Link className="header-text" style={{color: "blue", fontWeight: "bold"}} to="/">Home</Link>
+                        <Link style={{color: "blue", fontWeight: "bold"}} to="/resume">Resume</Link>
+                        <Link style={{color: "blue", fontWeight: "bold"}} to="/aboutme">About Me</Link>
+                        <Link style={{color: "blue", fontWeight: "bold"}} to="/projects">Projects</Link>
+                        <Link style={{color: "blue", fontWeight: "bold"}} to="/contact">Contact Me</Link>
                     </Navigation>
                 </Drawer>
                 <Content>
